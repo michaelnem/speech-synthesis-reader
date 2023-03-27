@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9dce6e9d.css",
-    "main.js": "/static/js/main.7527e41f.js",
-    "static/js/787.bffb98b0.chunk.js": "/static/js/787.bffb98b0.chunk.js",
-    "index.html": "/index.html",
-    "main.9dce6e9d.css.map": "/static/css/main.9dce6e9d.css.map",
-    "main.7527e41f.js.map": "/static/js/main.7527e41f.js.map",
-    "787.bffb98b0.chunk.js.map": "/static/js/787.bffb98b0.chunk.js.map"
+    "main.css": "/speech-synthesis-reader/static/css/main.9dce6e9d.css",
+    "main.js": "/speech-synthesis-reader/static/js/main.9baf63e3.js",
+    "static/js/787.bffb98b0.chunk.js": "/speech-synthesis-reader/static/js/787.bffb98b0.chunk.js",
+    "index.html": "/speech-synthesis-reader/index.html",
+    "main.9dce6e9d.css.map": "/speech-synthesis-reader/static/css/main.9dce6e9d.css.map",
+    "main.9baf63e3.js.map": "/speech-synthesis-reader/static/js/main.9baf63e3.js.map",
+    "787.bffb98b0.chunk.js.map": "/speech-synthesis-reader/static/js/787.bffb98b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9dce6e9d.css",
-    "static/js/main.7527e41f.js"
+    "static/js/main.9baf63e3.js"
   ]
 }
