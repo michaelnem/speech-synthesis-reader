@@ -90,8 +90,13 @@ function App() {
 
     return (
         <div className='speech-synthesis-reader'>
-            <textarea className='textarea' ref={ref} value={textToRead} onChange={handleMessageChange} />
-            <Slider value={rate} handleChange={handleRateChange} />
+            <div className='textarea-container'>
+                <textarea className='textarea' ref={ref} value={textToRead} onChange={handleMessageChange} />
+            </div>
+            <div>
+                <span>Speed {rate}</span>
+                <Slider value={rate} handleChange={handleRateChange} />
+            </div>
             <button onClick={handleCancelClick}>cancel</button>
             <button onClick={handleReadClick}>read</button>
             <ul>
