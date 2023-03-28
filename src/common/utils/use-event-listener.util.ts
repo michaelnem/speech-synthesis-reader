@@ -22,7 +22,7 @@ export function useEventListener(eventName: string , handler: (...args: any) => 
   
         // Create event listener that calls handler function stored in ref
         const eventListener = (event: any) => {
-            return savedHandler.current && savedHandler.current(event);
+            return savedHandler.current?.(event);
         };
   
         // Add event listener

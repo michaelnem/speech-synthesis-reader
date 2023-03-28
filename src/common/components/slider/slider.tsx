@@ -1,25 +1,24 @@
-import { PropsWithChildren } from 'react';
+import React, { ChangeEvent, PropsWithChildren } from 'react';
 import './slider.css';
 
-type SliderProps = PropsWithChildren<Partial<{ 
-    min: number;
-    max:number; 
-    value:number; 
-    handleChange: (...args: any) => any
-}>>
+interface SliderProps extends PropsWithChildren {
+    min?: number;
+    max?: number;
+    value: number;
+    handleChange: (event: ChangeEvent, ...args: any) => any;
+}
 
-function Slider({min=0, max=100, value=50, handleChange, ...props}: SliderProps) {
-
+function Slider({ min = 0, max = 100, value = 50, handleChange, ...props }: SliderProps) {
     return (
         <div className='slide-container'>
             <input
+                {...props}
                 className='slider'
                 type='range'
-                min={0}
-                max={100}
+                min={min}
+                max={max}
                 value={value}
-                onChange={handleChange}
-                id='myRange'
+                onChange={event => handleChange(event, { min, max, value: event.target.value })}
             />
         </div>
     );
