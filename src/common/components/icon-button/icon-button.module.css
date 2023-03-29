@@ -1,0 +1,26 @@
+.iconBtn {
+    height: 0;
+    width: 0;
+
+    padding: 16px;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color1);
+    border: none;
+    color: white;
+    
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.iconBtn:hover {
+    background-color: #4782d5;
+}
+
+.iconBtnContent {
+
+}

@@ -1,20 +1,53 @@
 /* @import-normalize; */
 
-html, body, .root {
-  width: 100%;
-  height: 100%;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
+:root {
+    --color1: #82aae3;
+    --color2: #91d8e4;
+    --color3: #bfeaf5;
+    --background: #eafdfc;
+    --border-grey: #E8E2E2;
+    --background-grey: F5F5F5;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+    font-size: 16px;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    position: relative;
+    min-height: 100vh;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+input,
+textarea,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

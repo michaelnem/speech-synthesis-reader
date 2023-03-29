@@ -1,24 +1,24 @@
 import React, { ChangeEvent, PropsWithChildren } from 'react';
-import './slider.css';
+import styles from './slider.module.css';
 
 interface SliderProps extends PropsWithChildren {
     min?: number;
     max?: number;
     value: number;
-    handleChange: (event: ChangeEvent, ...args: any) => any;
+    onChange: (event: ChangeEvent, ...args: any) => any;
 }
 
-function Slider({ min = 0, max = 100, value = 50, handleChange, ...props }: SliderProps) {
+function Slider({ min = 0, max = 100, value = 50, onChange, ...props }: SliderProps) {
     return (
-        <div className='slide-container'>
+        <div className={styles.container}>
             <input
                 {...props}
-                className='slider'
+                className={styles.slider}
                 type='range'
                 min={min}
                 max={max}
                 value={value}
-                onChange={event => handleChange(event, { min, max, value: event.target.value })}
+                onChange={event => onChange(event, { min, max, value: event.target.value })}
             />
         </div>
     );

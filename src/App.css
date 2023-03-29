@@ -1,4 +1,5 @@
 .speech-synthesis-reader {
+    height: inherit;
     overflow: auto;
 }
 .voice.active {
@@ -14,9 +15,19 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid #E8E2E2;
     border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
+    background-color: #F5F5F5;
     resize: none;
-  }
+}
+
+.reader-controller {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.play-btn-icon {
+    margin-inline-start: 3px;
+}

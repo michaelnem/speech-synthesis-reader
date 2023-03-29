@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/speech-synthesis-reader/static/css/main.d100a0c3.css",
-    "main.js": "/speech-synthesis-reader/static/js/main.9387bd2d.js",
+    "main.css": "/speech-synthesis-reader/static/css/main.5e3612e4.css",
+    "main.js": "/speech-synthesis-reader/static/js/main.a70f9afb.js",
     "static/js/787.bffb98b0.chunk.js": "/speech-synthesis-reader/static/js/787.bffb98b0.chunk.js",
     "index.html": "/speech-synthesis-reader/index.html",
-    "main.d100a0c3.css.map": "/speech-synthesis-reader/static/css/main.d100a0c3.css.map",
-    "main.9387bd2d.js.map": "/speech-synthesis-reader/static/js/main.9387bd2d.js.map",
+    "main.5e3612e4.css.map": "/speech-synthesis-reader/static/css/main.5e3612e4.css.map",
+    "main.a70f9afb.js.map": "/speech-synthesis-reader/static/js/main.a70f9afb.js.map",
     "787.bffb98b0.chunk.js.map": "/speech-synthesis-reader/static/js/787.bffb98b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d100a0c3.css",
-    "static/js/main.9387bd2d.js"
+    "static/css/main.5e3612e4.css",
+    "static/js/main.a70f9afb.js"
   ]
 }
